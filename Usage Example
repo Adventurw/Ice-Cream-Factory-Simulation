@@ -1,0 +1,13 @@
+Enter the number of orders: 3
+Enter the data of each order: 2 3 1
+
+---DATA
+numOfOrders: 3
+2 
+3 
+1
+
+---Solution for Ice cream factory---
+The order number 1 has been received.
+The order number 2 has been received.
+...
