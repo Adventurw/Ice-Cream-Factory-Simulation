@@ -31,6 +31,19 @@ The project has two implementations:
 - System call interface
 - Requires root privileges
 
+## 🔧 Technical Concepts Demonstrated
+
+| | |
+|---|---|
+| **🧵 Multi-threading** | Concurrent order processing using POSIX threads (userspace) and kernel threads (kernel module) |
+| **🔐 Synchronization** | Semaphore-based resource management preventing race conditions |
+| **🚫 Mutual Exclusion** | Protected critical sections ensuring data integrity |
+| **💀 Deadlock Prevention** | Ordered resource acquisition strategy avoiding circular waits |
+| **🔄 User/Kernel Space** | Dual implementation demonstrating concepts at both system levels |
+| **📞 System Calls** | Custom syscall interface bridging user and kernel space |
+| **📊 Resource Management** | Counting semaphores simulating limited factory resources |
+| **🔄 Thread Lifecycle** | Complete thread creation, synchronization, and termination handling |
+
 ## 🚀 Getting Started
 
 ### Prerequisites
